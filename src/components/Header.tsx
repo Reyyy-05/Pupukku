@@ -65,7 +65,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden border-t">
+        <div className="absolute left-0 top-16 w-full border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 md:hidden">
           <nav className="flex flex-col gap-1 p-4">
             {navLinks.map((link) => (
               <Link
