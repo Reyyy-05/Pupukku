@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="relative mb-20">
           <div className="mx-auto max-w-5xl">
             <Image
-              src="https://placehold.co/1200x600"
+              src="/images/Tech Company.png"
               alt="Team working in a field"
               data-ai-hint="team field"
               width={1200}
@@ -60,11 +60,13 @@ export default function AboutPage() {
         <div className="text-center">
           <h2 className="text-3xl font-bold text-primary mb-12">Meet Our Team</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { name: 'Ahmad ', role: 'Founder & CEO', img: '1', hint: 'man portrait' },
-              { name: 'Siti Nurhaliza', role: 'Head of Product', img: '2', hint: 'woman portrait' },
-              { name: 'Budi Santoso', role: 'Lead Engineer', img: '3', hint: 'man tech' },
-              { name: 'Dewi Lestari', role: 'Farming Expert', img: '4', hint: 'woman nature' },
+            {[ 
+              { name: 'Reyhan Albar ', role: 'Founder & CEO', img: '1', hint: 'man portrait' },
+              { name: 'Malikhatus Sanea', role: 'Head of Product', img: '2', hint: 'woman portrait' },
+              { name: 'Ilham Kurniawan', role: 'Lead Engineer', img: '3', hint: 'man tech' },
+              { name: 'Nova Anugrahini', role: 'Farming Expert', img: '4', hint: 'woman nature' },
+              { name: 'Miftahul Irfan', role: 'Marketing Lead', img: '5', hint: 'woman smiling' },
+              { name: 'Rahmat Ivaldy', role: 'Operations Manager', img: '6', hint: 'man at desk' },
             ].map(person => (
               <div key={person.name} className="flex flex-col items-center">
                 <Image
