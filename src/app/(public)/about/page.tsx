@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="relative mb-20">
           <div className="mx-auto max-w-5xl">
             <Image
-              src="/images/Tech Company.png"
+              src="/images/Team.png"
               alt="Team working in a field"
               data-ai-hint="team field"
               width={1200}

@@ -64,19 +64,7 @@ export const products = [
     reviews: 180,
     dataAiHint: 'fertilizer pellets',
   },
-  {
-    id: 'prod_6',
-    name: 'Liquid Seaweed Extract',
-    category: 'Organic',
-    price: 35.50,
-    description: 'A biostimulant that promotes vigorous growth and enhances nutrient uptake.',
-    imageUrl: 'https://placehold.co/600x400',
-    stock: 75,
-    seller: 'Eco Farms',
-    rating: 4.8,
-    reviews: 88,
-    dataAiHint: 'liquid fertilizer',
-  }
+  
 ];
 
 export const articles = [
@@ -87,8 +75,8 @@ export const articles = [
     author: 'Admin',
     date: '2023-10-26',
     content: '<p>The three numbers on a fertilizer label, such as 10-10-10 or 20-5-5, represent the percentage of three essential macronutrients: Nitrogen (N), Phosphorus (P), and Potassium (K). Understanding what these nutrients do can help you choose the right fertilizer for your plants.</p><h3>Nitrogen (N)</h3><p>Nitrogen is crucial for vegetative growth, particularly the leaves and stem. It is a key component of chlorophyll, the compound that plants use for photosynthesis. A high-nitrogen fertilizer will result in lush, green foliage.</p><h3>Phosphorus (P)</h3><p>Phosphorus is vital for root development, flowering, and fruiting. It plays a significant role in energy transfer within the plant. Fertilizers for flowering plants or new plantings are often high in phosphorus.</p><h3>Potassium (K)</h3><p>Potassium contributes to the overall health and vigor of plants. It helps regulate water movement, improves disease resistance, and is essential for strong stems and stalks.</p>',
-    imageUrl: 'https://placehold.co/800x400',
-    dataAiHint: 'infographic chart',
+    imageUrl: '/images/npk.article.png',
+    dataAiHint: 'npk fertilizer bag',
   },
   {
     id: '2',
@@ -97,7 +85,7 @@ export const articles = [
     author: 'Admin',
     date: '2023-11-05',
     content: '<p>Choosing between organic and synthetic fertilizers depends on your gardening philosophy and goals. Both have their pros and cons.</p><h3>Organic Fertilizers</h3><p>Organic fertilizers are derived from natural sources like compost, manure, and bone meal. They release nutrients slowly, which improves soil structure and microbial life over time. However, their nutrient content can be variable and they may act more slowly.</p><h3>Synthetic Fertilizers</h3><p>Synthetic fertilizers are manufactured and provide a precise, rapid supply of nutrients. They are fast-acting and the exact NPK ratio is known. Overuse, however, can lead to soil degradation and nutrient runoff, which can harm the environment.</p><h3>Conclusion</h3><p>For long-term soil health, organic fertilizers are an excellent choice. For a quick boost or to correct specific nutrient deficiencies, synthetic fertilizers can be very effective. Many gardeners use a combination of both.</p>',
-    imageUrl: 'https://placehold.co/800x400',
+    imageUrl: '/images/organic.article.png',
     dataAiHint: 'nature comparison',
   },
 ];

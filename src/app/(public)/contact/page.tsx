@@ -61,7 +61,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold">Phone</h3>
-                <p className="text-muted-foreground">+62 123 4567 890</p>
+                <p className="text-muted-foreground">+62 877 001 876 92</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
